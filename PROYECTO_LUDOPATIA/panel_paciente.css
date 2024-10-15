@@ -1,0 +1,114 @@
+/* Estilo para el video de fondo */
+#background-video {
+    position: fixed; /* Mantener el video fijo en el fondo */
+    top: 0; /* Alineación en la parte superior */
+    left: 0; /* Alineación a la izquierda */
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Alto completo */
+    object-fit: cover; /* Asegurar que el video cubra todo el fondo */
+    z-index: -1; /* Colocar detrás de otros elementos */
+}
+
+/* Otros estilos para el panel */
+body {
+    color: white; /* Cambia el color del texto para que resalte sobre el video */
+    font-family: Arial, sans-serif; /* Estilo de fuente */
+    margin: 0; /* Elimina el margen por defecto */
+    padding: 0; /* Elimina el relleno por defecto */
+}
+
+h1 {
+    text-align: center; /* Centrar el título */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+p {
+    text-align: center; /* Centrar los párrafos */
+    margin: 15px; /* Margen alrededor de los párrafos */
+}
+
+a {
+    display: block; /* Asegura que el enlace ocupe toda la línea */
+    text-align: center; /* Centrar el enlace */
+    color: #007bff; /* Color del enlace */
+    margin: 20px auto; /* Margen alrededor del enlace */
+    text-decoration: none; /* Sin subrayado */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+
+/* Estilos específicos para el apartado de diarios */
+h2 {
+    text-align: center; /* Centrar el título del apartado de diarios */
+    margin-top: 30px; /* Espaciado superior */
+    color: #ffcc00; /* Color amarillo para destacar */
+}
+
+form {
+    display: flex; /* Usar flexbox para centrar el formulario */
+    flex-direction: column; /* Colocar elementos en columna */
+    align-items: center; /* Centrar los elementos en el eje horizontal */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+textarea {
+    width: 80%; /* Ancho del área de texto */
+    max-width: 600px; /* Ancho máximo para evitar que se estire demasiado */
+    padding: 10px; /* Relleno interior */
+    border-radius: 8px; /* Bordes redondeados */
+    border: 2px solid #ffcc00; /* Borde amarillo */
+    font-size: 16px; /* Tamaño de fuente */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+    color: #333; /* Color del texto */
+}
+
+input[type="submit"] {
+    background-color: #ffcc00; /* Fondo amarillo */
+    color: #333; /* Texto oscuro */
+    padding: 10px 20px; /* Relleno en botón */
+    border: none; /* Sin borde */
+    border-radius: 8px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor a mano al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de la fuente */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+input[type="submit"]:hover {
+    background-color: #e6b800; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilos para la lista de entradas anteriores */
+ul {
+    list-style-type: none; /* Eliminar viñetas de la lista */
+    padding: 0; /* Eliminar relleno */
+    margin: 20px auto; /* Centrar y añadir margen */
+    width: 80%; /* Ancho de la lista */
+    max-width: 600px; /* Ancho máximo */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semitransparente */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 15px; /* Espaciado interior */
+}
+
+ul li {
+    padding: 10px; /* Espaciado dentro de cada entrada */
+    border-bottom: 1px solid #ffcc00; /* Borde amarillo entre entradas */
+    color: white; /* Texto blanco */
+}
+
+ul li:last-child {
+    border-bottom: none; /* Quitar el borde de la última entrada */
+}
+
+/* Estilos para el apartado de citas */
+h2.citas {
+    text-align: center; /* Centrar el título de citas */
+    margin-top: 30px; /* Espaciado superior */
+    color: #ffcc00; /* Color amarillo para destacar */
+}
+
+ul.citas {
+    margin: 20px auto; /* Centrar y añadir margen */
+    padding: 15px; /* Espaciado interior */
+}

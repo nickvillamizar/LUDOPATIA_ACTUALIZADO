@@ -1,0 +1,113 @@
+/* General */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white; /* Color del texto general a blanco para que resalte */
+}
+
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.content {
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center; /* Centrar el título */
+    margin-top: 20px; /* Espaciado superior */
+    color: #ffcc00; /* Color amarillo para destacar */
+}
+
+h2 {
+    text-align: center; /* Centrar el título */
+    margin-top: 30px; /* Espaciado superior */
+    color: #ffcc00; /* Color amarillo para destacar */
+}
+
+p {
+    text-align: center; /* Centrar los párrafos */
+    margin: 15px; /* Margen alrededor de los párrafos */
+    color: white; /* Color del texto a blanco */
+}
+
+form {
+    display: flex; /* Usar flexbox para centrar el formulario */
+    flex-direction: column; /* Colocar elementos en columna */
+    align-items: center; /* Centrar los elementos en el eje horizontal */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+select {
+    padding: 10px;
+    border-radius: 8px; /* Bordes redondeados */
+    border: 2px solid #ffcc00; /* Borde amarillo */
+    width: 50%;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+    color: #333; /* Color del texto oscuro */
+}
+
+input[type="submit"] {
+    background-color: #ffcc00; /* Fondo amarillo */
+    color: #333; /* Texto oscuro */
+    padding: 10px 20px; /* Relleno en botón */
+    border: none; /* Sin borde */
+    border-radius: 8px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor a mano al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de la fuente */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+input[type="submit"]:hover {
+    background-color: #e6b800; /* Color más oscuro al pasar el ratón */
+}
+
+a {
+    display: inline-block; /* Asegura que el enlace ocupe toda la línea */
+    margin-top: 20px;
+    color: #007bff; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc; /* Borde gris para el separador */
+    margin-top: 20px;
+}
+
+/* Estilos para la sección de horarios de citas */
+h3 {
+    text-align: center; /* Centrar el título */
+    margin-top: 30px; /* Espaciado superior */
+    color: #ffcc00; /* Color amarillo para destacar */
+}
+
+.appointment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input[type="time"] {
+    padding: 10px;
+    border-radius: 8px; /* Bordes redondeados */
+    border: 2px solid #ffcc00; /* Borde amarillo */
+    width: 50%;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+    color: #333; /* Color del texto oscuro */
+}

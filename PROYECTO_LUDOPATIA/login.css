@@ -1,0 +1,58 @@
+/* Estilo para el video de fondo */
+#background-video {
+    position: fixed; /* Mantener el video fijo en el fondo */
+    top: 0; /* Alineación en la parte superior */
+    left: 0; /* Alineación a la izquierda */
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Alto completo */
+    object-fit: cover; /* Asegurar que el video cubra todo el fondo */
+    z-index: -1; /* Colocar detrás de otros elementos */
+}
+
+/* Otros estilos para el formulario y la página */
+body {
+    color: white; /* Cambia el color del texto para que resalte sobre el video */
+    font-family: Arial, sans-serif; /* Estilo de fuente */
+    margin: 0; /* Elimina el margen por defecto */
+    padding: 0; /* Elimina el relleno por defecto */
+}
+
+h2 {
+    text-align: center; /* Centrar el título */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente para el formulario */
+    padding: 20px; /* Relleno alrededor del formulario */
+    border-radius: 10px; /* Bordes redondeados */
+    width: 300px; /* Ancho fijo del formulario */
+    margin: auto; /* Centrar el formulario */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Sombra alrededor del formulario */
+}
+
+label {
+    margin-top: 10px; /* Espaciado superior en los labels */
+}
+
+input[type="text"], input[type="password"], select {
+    width: 100%; /* Ancho completo para inputs y select */
+    padding: 10px; /* Relleno interno */
+    margin: 5px 0; /* Margen en la parte superior e inferior */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+input[type="submit"], button {
+    background-color: #007bff; /* Color de fondo para botones */
+    color: white; /* Color de texto para botones */
+    border: none; /* Sin borde */
+    padding: 10px 15px; /* Relleno interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a pointer */
+    width: 100%; /* Ancho completo */
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el ratón */
+}
